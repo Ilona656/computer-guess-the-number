@@ -13,6 +13,12 @@ document.getElementById('too-low-btn').addEventListener('click', function () {
     
 })
 
+document.getElementById('is-correct-btn').addEventListener('click', function () {
+    setMessage("Woho! :)")
+
+})
+
+
 
 function setMessage(msg) {
     document.getElementById('message').innerText = msg
